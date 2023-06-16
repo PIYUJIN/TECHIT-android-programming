@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemShow"
+        android:title="등록 화면 보기" />
+    <item
+        android:id="@+id/itemResult"
+        android:title="등록 결과 보기" />
+</menu>
