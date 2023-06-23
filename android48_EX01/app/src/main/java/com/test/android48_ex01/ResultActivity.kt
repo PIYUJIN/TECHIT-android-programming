@@ -20,12 +20,13 @@ class ResultActivity : AppCompatActivity() {
             textViewName.text = personList[position].name
             textViewDate.text = personList[position].date
             textViewGender.text = personList[position].gender
+            textViewHobby.text = ""
 
             for(s1 in personList[position].hobbyList){
                 textViewHobby.append("${s1}\n")
             }
 
-            if(personList[position].hobbyList==null) {
+            if(personList[position].hobbyList.size==0) {
                 textViewHobby.text = "취미 없음"
             }
 
